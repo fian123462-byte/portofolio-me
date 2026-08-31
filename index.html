@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Rizky Alfian | Portofolio Pribadi</title>
+    <meta name="description" content="Portofolio Pribadi Muhammad Rizky Alfian - Web Developer & Visual Designer.">
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header">
+    <div class="nav-container">
+
+        <a href="#home" class="logo">MRA.</a>
+
+        <nav class="nav-menu">
+            <a href="#home" class="nav-link active">HOME</a>
+            <a href="#about" class="nav-link">ABOUT</a>
+            <a href="#certificate" class="nav-link">SERTIFIKAT</a>
+            <a href="#project" class="nav-link">PROJECT</a>
+            <a href="#contact" class="nav-link">CONTACT</a>
+        </nav>
+
+        <!-- Light / Dark Mode -->
+        <div class="theme-toggle">
+            <button 
+                id="theme-toggle"
+                class="theme-button"
+                aria-label="Aktifkan dark mode"
+                title="Dark Mode"
+            >
+                <i class="fa-solid fa-moon"></i>
+            </button>
+        </div>
+
+        <button class="mobile-nav-toggle" aria-label="Toggle Menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+    </div>
+</header>
+
+    <!-- Main Content -->
+    <main>
+        
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <span class="hero-subtitle">HELLO</span>
+                    <h1 class="hero-title">I'm <span class="highlight">Rizky</span> Alfian</h1>
+                    <p class="hero-description">
+                        This is Muhammad Rizky Alfian, a passionate Visual Designer, Web Developer, and Creative Creator based in Indonesia, striving to build beautiful and functional digital experiences.
+                    </p>
+                    <a href="#contact" class="btn btn-primary">DOWNLOAD CV</a>
+                    
+                    <!-- Social Links -->
+                    <div class="hero-socials">
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://wa.me" target="_blank" rel="noopener noreferrer" class="social-icon"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <!-- Profile Photo Area -->
+                <div class="hero-image-area">
+                    <div class="image-wrapper">
+                        <div class="brush-bg"></div>
+                        <img src="./img/PhotoProfil.png" alt="Muhammad Rizky Alfian" class="profile-photo">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll-down">
+                <span>SCROLL DOWN</span>
+                <div class="arrow-line"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-tag">ABOUT ME</span>
+                    <h2 class="section-title">Get to Know Me</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p class="lead-text">
+                            Saya adalah seorang siswa SMK yang memilih jurusan Rekaya Perangkat Lunak, ingin menjadi seorang IT yang handal dan kreatif
+                        <p>
+                            Dengan saya belajar di jurusan RPL, saya memiliki kesempatan untuk mengembangkan keterampilan dalam pemrograman, pengembangan perangkat lunak, dan teknologi informasi. Saya bersemangat untuk terus belajar dan berkontribusi dalam dunia IT.
+                        </p>
+                        <div class="about-details">
+                            <div class="detail-item">
+                                <span class="detail-label">Location</span>
+                                <span class="detail-value">Indonesia</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Email</span>
+                                <span class="detail-value">rizky.alfian@example.com</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-skills">
+                        <h3 class="skills-title">My Skills & Tools</h3>
+                        <div class="skills-grid">
+                            <div class="skill-card">
+                                <div class="skill-icon"><i class="fa-brands fa-html5"></i></div>
+                                <h4>Web Development</h4>
+                                <p>HTML, CSS, JavaScript, PHP, Python, Responsive Design</p>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                                <h4>UI/UX Design</h4>
+                                <p>Figma,Canva, Prototyping</p>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-icon"><i class="fa-solid fa-file-lines"></i></div>
+                                <h4>MS Office</h4>
+                                <p>Word, Excel, PowerPoint</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificate Section -->
+        <section id="certificate" class="certificate-section section-padding">
+            <div class="section-container">
+
+                <div class="section-header">
+                    <span class="section-tag">MY CERTIFICATES</span>
+                    <h2 class="section-title">My Certificates</h2>
+                    <p class="section-description">
+                        Beberapa sertifikat yang saya dapatkan selama belajar dan mengembangkan kemampuan.
+                    </p>
+                </div>
+
+        <div class="certificate-grid">
+
+            <!-- Sertifikat 1 -->
+            <div class="certificate-card">
+                <div class="certificate-image">
+                    <img src="./img/certificates/sertifikat1.jpg"
+                         alt="Sertifikat Web Development">
+                </div>
+
+                <div class="certificate-info">
+                    <span class="certificate-category">
+                        Web Development
+                    </span>
+
+                    <h3>Sertifikat Web Development</h3>
+
+                    <p>
+                        Sertifikat pembelajaran dan pengembangan website.
+                    </p>
+
+                    <a href="./img/certificates/sertifikat1.jpg"
+                       target="_blank"
+                       class="certificate-button">
+                        Lihat Sertifikat
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+
+            <!-- Sertifikat 2 -->
+            <div class="certificate-card">
+                <div class="certificate-image">
+                    <img src="./img/certificates/sertifikat2.jpg"
+                         alt="Sertifikat UI UX Design">
+                </div>
+
+                <div class="certificate-info">
+                    <span class="certificate-category">
+                        UI/UX Design
+                    </span>
+
+                    <h3>Sertifikat UI/UX Design</h3>
+
+                    <p>
+                        Sertifikat pembelajaran desain UI/UX dan prototyping.
+                    </p>
+
+                    <a href="./img/certificates/sertifikat2.jpg"
+                       target="_blank"
+                       class="certificate-button">
+                        Lihat Sertifikat
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+
+            <!-- Sertifikat 3 -->
+            <div class="certificate-card">
+                <div class="certificate-image">
+                    <img src="./img/certificates/sertifikat3.jpg"
+                         alt="Sertifikat Programming">
+                </div>
+
+                <div class="certificate-info">
+                    <span class="certificate-category">
+                        Programming
+                    </span>
+
+                    <h3>Sertifikat Programming</h3>
+
+                    <p>
+                        Sertifikat pembelajaran pemrograman dan teknologi.
+                    </p>
+
+                    <a href="./img/certificates/sertifikat3.jpg"
+                       target="_blank"
+                       class="certificate-button">
+                        Lihat Sertifikat
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+
+            <!-- Sertifikat 4 -->
+            <div class="certificate-card">
+                <div class="certificate-image">
+                    <img src="./img/certificates/sertifikat4.jpg"
+                         alt="Sertifikat lainnya">
+                </div>
+
+                <div class="certificate-info">
+                    <span class="certificate-category">
+                        Achievement
+                    </span>
+
+                    <h3>Sertifikat Achievement</h3>
+
+                    <p>
+                        Sertifikat pencapaian dan kegiatan yang pernah diikuti.
+                    </p>
+
+                    <a href="./img/certificates/sertifikat4.jpg"
+                       target="_blank"
+                       class="certificate-button">
+                        Lihat Sertifikat
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Project Section -->
+<section id="project" class="project-section section-padding">
+    <div class="section-container">
+
+        <div class="section-header">
+            <span class="section-tag">MY PROJECTS</span>
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-description">
+                Beberapa project yang pernah saya buat selama belajar dan mengembangkan kemampuan.
+            </p>
+        </div>
+
+        <div class="project-grid">
+
+            <!-- Project 1 -->
+            <div class="project-card-new">
+
+                <div class="project-image">
+                    <img src="./img/projectjamdigital.png"
+                         alt="SmartHome Dashboard UI">
+
+                    <div class="project-overlay-new">
+                        <a href="/jam digital/index.html"
+                           class="project-view-button">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-content">
+                    <span class="project-category-new">
+                        Web Development
+                    </span>
+
+                    <h3>SmartHome Dashboard UI</h3>
+
+                    <p>
+                        Dashboard interaktif untuk mengontrol perangkat
+                        smart home dengan tampilan modern dan responsive.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- Project 2 -->
+            <div class="project-card-new">
+
+                <div class="project-image">
+                    <img src="./img/projects/project2.jpg"
+                         alt="EcoStore Mobile App">
+
+                    <div class="project-overlay-new">
+                        <a href="#"
+                           class="project-view-button">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-content">
+                    <span class="project-category-new">
+                        UI/UX Design
+                    </span>
+
+                    <h3>EcoStore Mobile App</h3>
+
+                    <p>
+                        Desain aplikasi marketplace produk organik
+                        dengan tampilan modern dan user friendly.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>Figma</span>
+                        <span>UI/UX</span>
+                        <span>Prototype</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- Project 3 -->
+            <div class="project-card-new">
+
+                <div class="project-image">
+                    <img src="./img/projects/project3.jpg"
+                         alt="Personal Portfolio">
+
+                    <div class="project-overlay-new">
+                        <a href="#"
+                           class="project-view-button">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-content">
+                    <span class="project-category-new">
+                        Web Development
+                    </span>
+
+                    <h3>Personal Portfolio</h3>
+
+                    <p>
+                        Website portfolio pribadi untuk menampilkan
+                        profil, skill, sertifikat dan project.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- Project 4 -->
+            <div class="project-card-new">
+
+                <div class="project-image">
+                    <img src="./img/projects/project4.jpg"
+                         alt="Data Analysis Dashboard">
+
+                    <div class="project-overlay-new">
+                        <a href="#"
+                           class="project-view-button">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-content">
+                    <span class="project-category-new">
+                        Data Analysis
+                    </span>
+
+                    <h3>Data Analysis Dashboard</h3>
+
+                    <p>
+                        Dashboard untuk menampilkan dan menganalisis
+                        data dalam bentuk visualisasi.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>Excel</span>
+                        <span>Python</span>
+                        <span>Data</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-tag">Contact me if you need help</span>
+                    <h2 class="section-title">Let's Work Together</h2>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3 class="info-title">Hubungi Saya Secara Langsung</h3>
+                        <div class="info-list">
+                            <div class="info-item">
+                                <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div>
+                                    <span class="info-label">Email</span>
+                                    <a href="mailto:rizky.alfian@example.com" class="info-link">rizky.alfian@example.com</a>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                                <div>
+                                    <span class="info-label">WhatsApp</span>
+                                    <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" class="info-link">+62 812 3456 7890</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-wrapper">
+                        <form id="contact-form" class="contact-form">
+                            <input type="text" class="form-input" placeholder="Nama Lengkap" required>
+                            <input type="email" class="form-input" placeholder="Alamat Email" required>
+                            <textarea class="form-input form-textarea" placeholder="Pesan Anda" required></textarea>
+                            <button type="submit" class="btn btn-primary btn-block">KIRIM PESAN</button>
+                            <div id="form-status" class="form-status"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Dark Theme Footer -->
+    <footer class="footer-dark">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h2 class="footer-logo">PORTOFOLIO PRIBADI</h2>
+                <p class="copyright">&copy; 2026 Muhammad Rizky Alfian</p>
+            </div>
+            <div class="footer-nav">
+                <a href="#about" class="footer-link">About</a>
+                <a href="#portfolio" class="footer-link">Projects</a>
+                <a href="#contact" class="footer-link">Contact</a>
+            </div>
+            <div class="footer-socials">
+                <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" class="footer-social-btn wa"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="footer-social-btn ln"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="footer-social-btn gh"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="built-with">Built with HTML & CSS</p>
+        </div>
+    </footer>
+
+    <!-- Custom Script File -->
+    <script src="app.js"></script>
+</body>
+</html>
