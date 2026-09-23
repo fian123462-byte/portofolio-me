@@ -190,3 +190,47 @@ document.addEventListener('DOMContentLoaded', () => {
 
     revealElements.forEach(el => revealObserver.observe(el));
 });
+// =========================================
+// CERTIFICATE VERTICAL SWIPE
+// =========================================
+
+const certificateGrid = document.querySelector('.certificate-grid');
+
+if (certificateGrid) {
+
+    let isDown = false;
+    let startY;
+    let scrollTop;
+
+    certificateGrid.addEventListener('touchstart', (e) => {
+
+        isDown = true;
+
+        startY = e.touches[0].pageY;
+
+        scrollTop = certificateGrid.scrollTop;
+
+    }, { passive: true });
+
+
+    certificateGrid.addEventListener('touchmove', (e) => {
+
+        if (!isDown) return;
+
+        const currentY = e.touches[0].pageY;
+
+        const distance = startY - currentY;
+
+        certificateGrid.scrollTop =
+            scrollTop + distance;
+
+    }, { passive: true });
+
+
+    certificateGrid.addEventListener('touchend', () => {
+
+        isDown = false;
+
+    });
+
+}
