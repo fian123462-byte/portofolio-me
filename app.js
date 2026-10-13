@@ -515,4 +515,31 @@ if (certificateGrid) {
         }
     );
 
+    // Form Hubungi Saya Melalui WhatsApp
+    const whatsappForm = document.getElementById("whatsapp-form");
+
+    if (whatsappForm) {
+        whatsappForm.addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            const nama = document.getElementById("wa-nama").value.trim();
+            const pesan = document.getElementById("wa-pesan").value.trim();
+
+            if (!nama || !pesan) {
+                alert("Nama dan pesan harus diisi!");
+                return;
+            }
+
+            const nomorWhatsApp = "62895404284308";
+
+            const isiPesan =
+                `Halo Rizky! Saya ${nama}.\n\n${pesan}`;
+
+            const linkWhatsApp =
+                `https://wa.me/${nomorWhatsApp}?text=${encodeURIComponent(isiPesan)}`;
+
+            window.open(linkWhatsApp, "_blank");
+        });
+    }
+
 }

@@ -1691,3 +1691,49 @@ body,
         font-size: 15px;
     }
 }
+
+/* Contact WhatsApp */
+.contact-description {
+    margin-bottom: 25px;
+    line-height: 1.7;
+    color: var(--text-color, #666);
+}
+
+#whatsapp-form .info-title {
+    margin-bottom: 12px;
+}
+
+#whatsapp-form .form-input {
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+#whatsapp-form .form-textarea {
+    min-height: 160px;
+    resize: vertical;
+}
+
+#whatsapp-form .btn-primary {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#whatsapp-form .btn-primary i {
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    #contact .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    #whatsapp-form .btn-primary {
+        font-size: 13px;
+        padding: 15px 12px;
+    }
+}

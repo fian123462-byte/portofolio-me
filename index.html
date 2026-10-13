@@ -61,7 +61,7 @@
                     <p class="hero-description">
                         This is Muhammad Rizky Alfian, a passionate Visual Designer, Web Developer, and Creative Creator based in Indonesia, striving to build beautiful and functional digital experiences.
                     </p>
-                    
+
                     <a href="/cv/cv.pdf"
                     class="btn-download"
                     download="CV-Muhammad-Rizky-Alfian.pdf">
@@ -612,46 +612,106 @@
 </section>
 
         <!-- Contact Section -->
-        <section id="contact" class="contact-section section-padding">
-            <div class="section-container">
-                <div class="section-header">
-                    <span class="section-tag">Contact me if you need help</span>
-                    <h2 class="section-title">Let's Work Together</h2>
-                </div>
-                <div class="contact-grid">
-                    <div class="contact-info">
-                        <h3 class="info-title">Hubungi Saya Secara Langsung</h3>
-                        <div class="info-list">
-                            <div class="info-item">
-                                <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
-                                <div>
-                                    <span class="info-label">Email</span>
-                                    <a href="mailto:fian123462@gmail.com" class="info-link">fian123462@gmail.com</a>
-                                </div>
+    <section id="contact" class="contact-section section-padding">
+        <div class="section-container">
+
+            <div class="section-header">
+                <span class="section-tag">CONTACT ME IF YOU NEED HELP</span>
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-description">
+                    Punya pertanyaan atau ingin bekerja sama?
+                    Hubungi saya langsung melalui WhatsApp.
+                </p>
+            </div>
+
+            <div class="contact-grid">
+
+                <!-- Informasi Kontak -->
+                <div class="contact-info">
+                    <h3 class="info-title">Hubungi Saya Secara Langsung</h3>
+
+                    <p>
+                        Saya terbuka untuk berdiskusi tentang project,
+                        pengembangan website, maupun peluang kerja sama.
+                    </p>
+
+                    <div class="info-list">
+
+                        <!-- Email -->
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fa-solid fa-envelope"></i>
                             </div>
-                            <div class="info-item">
-                                <div class="info-icon"><i class="fa-brands fa-whatsapp"></i></div>
-                                <div>
-                                    <span class="info-label">WhatsApp</span>
-                                    <a href="https://wa.me/62895404284308" target="_blank" rel="noopener noreferrer" class="info-link">+62 895 4042 84308</a>
-                                </div>
+
+                            <div>
+                                <span class="info-label">EMAIL</span>
+                                <a href="mailto:fian123462@gmail.com"
+                                class="info-link">
+                                    fian123462@gmail.com
+                                </a>
                             </div>
                         </div>
-                    </div>
-                    <div class="contact-form-wrapper">
-                        <form id="contact-form" class="contact-form">
-                            <input type="text" class="form-input" placeholder="Nama Lengkap" required>
-                            <input type="email" class="form-input" placeholder="Alamat Email" required>
-                            <textarea class="form-input form-textarea" placeholder="Pesan Anda" required></textarea>
-                            <button type="submit" class="btn btn-primary btn-block">KIRIM PESAN</button>
-                            <div id="form-status" class="form-status"></div>
-                        </form>
+
+                        <!-- WhatsApp -->
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </div>
+
+                            <div>
+                                <span class="info-label">WHATSAPP</span>
+                                <a href="https://wa.me/62895404284308"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="info-link">
+                                    +62 895 4042 84308
+                                </a>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-            </div>
-        </section>
 
-    </main>
+                <!-- Form WhatsApp -->
+                <div class="contact-form-wrapper">
+
+                    <form id="whatsapp-form" class="contact-form">
+
+                        <h3 class="info-title">Kirim Pesan WhatsApp</h3>
+
+                        <p class="contact-description">
+                            Isi nama dan pesan kamu di bawah ini.
+                            Pesan akan diteruskan ke WhatsApp saya.
+                        </p>
+
+                        <input
+                            type="text"
+                            id="wa-nama"
+                            class="form-input"
+                            placeholder="Nama Lengkap"
+                            required
+                        >
+
+                        <textarea
+                            id="wa-pesan"
+                            class="form-input form-textarea"
+                            placeholder="Tulis pesan kamu di sini..."
+                            required
+                        ></textarea>
+
+                        <button type="submit"
+                                class="btn btn-primary btn-block">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            HUBUNGI SAYA VIA WHATSAPP
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
 
     <!-- Dark Theme Footer -->
     <footer class="footer-dark">
